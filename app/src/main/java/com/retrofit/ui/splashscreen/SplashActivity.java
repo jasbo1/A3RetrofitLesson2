@@ -42,9 +42,9 @@ public class SplashActivity extends AppCompatActivity {
             OnBoardActivity.start(this);
 
         }else {
-            OnBoardActivity.start(this);
+           // OnBoardActivity.start(this);
 
-           //MainActivity.start(this);
+           MainActivity.start(this);
         }
 
        /* overridePendingTransition(R.anim.slide_in,R.anim.slide_out);
